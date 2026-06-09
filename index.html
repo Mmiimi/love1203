@@ -210,6 +210,14 @@ for(let i=0;i<20;i++){
 }
 
 </script>
+<audio id="song" loop>
+    <source src="Alex Warren - Ordinary (Official Lyric Video).mp3" type="audio/mpeg">
+</audio>
 
+<script>
+document.addEventListener("click", function () {
+    document.getElementById("song").play();
+}, { once: true });
+</script>
 </body>
 </html>
